@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .card{
+            background-color: pink;
+            display: flex;
+            
+            
+        }
+        .mt-auto{
+            background-color: black;
+        }
+        .mt {
+            color: pink;
+            font-size: 50px;
+        }
+        .church-1{ float: right;}
+        .card-title{ color:grey; 
+        font-size: 30px;}
+        .card-text {font-size: 20px;}
+        .card-body{
+            text-align: right;
+        }
+        .flex{
+            text-align: center;
+        }
+        .mt-auto {
+            margin-top: 80px;
+            text-align: center;
+        }
+        .sing {display:block;  margin: auto;}
+        .mybutton {
+            font-size: 20px;
+            float:right;
+            padding: 50 100;
+            border-radius: 60%;
+            background-color: grey;
+            border: 0;
+            font-size: 30px;
+            color: blue;
+        }
+       
+            
+           
+
+        
+    </style>
+    <script>
+        document.write("welcome!"); // script 태그 안에 작성한 코드가 실행된다.
+        
+    </script>
+
+</head>
+<body>
+    <header class="card ">
+        <div>
+            <img src="images.png" class="church-1" alt="..." width="100" height="50">
+        
+        </div>
+       
+        <div class="card-body">
+        <button type="button" id="mybutton"  ><p class="click">클릭</p></button>
+          <h5 class="card-title">김민혜 </h5>
+          <p class="card-text">프로젝트</p>
+          
+        </div>
+    </header>
+    <main class="flex">
+        <div class="container" >
+            <img src="찬송.jpg" class="sing" alt="" >
+            <hi class="mt">웹페이지만들기</hi>
+            <p class="lead">어떻게 하면 웹개발자가 될 수 있을까</p>
+            <a href="#" style="cursor: pointer;" onclick="location.href='http://www.naver.com';">http://naver.com</a>
+        </div>
+    
+    </main>
+    <footer class="mt-auto">
+        <div class="container">
+            <span class="text-muted">개발자의 길 한걸음씩 <br> 해보자아자아자</span>
+        </div>
+        <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+                <label for="floatingInputGrid">이메일을입력하세요</label>
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-floating">
+                <select class="form-select" id="floatingSelectGrid">
+                  <option selected>서울특별시 노원구</option>
+                  <option value="1">서울특별시 노원구</option>
+                  <option value="2">경기도 의정부시 신곡동</option>
+                  <option value="3">경상도 울주군 산곡동</option>
+                </select>
+                <label for="floatingSelectGrid">주소를 입력하세요</label>
+              </div>
+            </div>
+          </div>
+          
+        
+        
+        
+    </footer>
+    <script type="text/javascript" src="web.js"></script> 
+</body>
+</html>
